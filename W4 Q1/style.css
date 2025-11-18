@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registration{
+    padding: 30px;
+    background-color: #eee6e6;
+    width:48%;
+}
+.registration .registration-form-container .form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.registration .registration-form-container .form-container form input{
+    border: none;
+    background-color: #ccc;
+    padding: 15px;
+    width: 90%;
+}
+.registration .registration-form-container .form-container form textarea{
+    border: none;
+    background-color: #ccc;
+    padding: 15px;
+    width: 90%;
+    height: 80px;
+}
+.registration .registration-form-container .form-container form button{
+    background-color: rgb(236, 201, 75);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+}
